@@ -27,5 +27,7 @@ This project compares popular clustering algorithms on synthetic high-dimensiona
   - Internal: Silhouette, Calinski–Harabasz (CH), Davies–Bouldin (DB)
   - Runtime
 
-   git clone https://github.com/Subramanian-MS/MSc-Dissertation.git
-   cd MSc-Dissertation
+## Key Findings
+
+Classical clustering methods performed strongly when clusters were compact and well separated, with K-means, Ward, and GMM showing high agreement with ground truth. DBSCAN was more resilient to boundary outliers and irregular shapes by labelling ambiguous points as noise, which preserved inlier quality when contamination increased. Across both synthetic data and HAR, applying PCA before clustering improved stability and reduced runtime while retaining most structure; PCA-50 was effective for analysis, while PCA-2 was used only for visualisation. Overall, there is no single best algorithm in all settings: centroid-based methods excel with spherical, balanced groups, GMM adapts to elliptical structure, and DBSCAN is preferable when robustness to noise and non-convex shapes is required.
+
