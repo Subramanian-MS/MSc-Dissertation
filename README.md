@@ -39,12 +39,3 @@ If you use this dataset in derived work, please cite:
 
 Reyes-Ortiz, J., Anguita, D., Ghio, A., Oneto, L., & Parra, X. (2013). *Human Activity Recognition Using Smartphones* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C54S4K
 
-**BibTeX**
-```bibtex
-@dataset{reyes-ortiz_2013_uci_har,
-  title   = {Human Activity Recognition Using Smartphones},
-  author  = {Reyes-Ortiz, Jorge and Anguita, Davide and Ghio, Alessandro and Oneto, Luca and Parra, Xavier},
-  year    = {2013},
-  note    = {UCI Machine Learning Repository},
-  doi     = {10.24432/C54S4K}
-}
